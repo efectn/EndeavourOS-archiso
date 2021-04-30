@@ -64,9 +64,6 @@ sdparm
 sg3_utils
 smartmontools
 
-# EFI/UEFI.packages
-refind
-
 # keyring_mirros.endeavour
 endeavouros-mirrorlist
 endeavouros-keyring
@@ -134,12 +131,9 @@ grub2-theme-endeavouros
 endeavouros-xfce4-terminal-colors
 
 # extra.desktop.packages
-dconf-editor
 file-roller
 libwnck3
 network-manager-applet
-transmission-gtk
-galculator
 
 # default.browser.endeavour
 firefox
@@ -252,55 +246,6 @@ vpnc
 xl2tpd
 r8168
 
-# calamares.endeavour
-calamares_current
-#calamares_test
-
-# calamares.dependencies
-lsb-release
-libpwquality
-cmake
-qt5-svg
-qt5-webengine
-yaml-cpp
-extra-cmake-modules
-boost
-
-# calamares.modules
-# dependencies for installer modules
-#for encrypted swap
-mkinitcpio-openswap
-#for showing keyboard layouts
-ckbcomp
-
-# calamares.welcome
-upower
-
-# calamares.partition
-kcoreaddons
-kconfig
-ki18n
-kservice
-kwidgetsaddons
-kpmcore
-parted
-gparted
-
-# calamares.unpackfs
-squashfs-tools
-
-# calamares.others
-qt5-xmlpatterns
-doxygen
-tcpdump
-dmidecode
-kparts
-polkit-qt5
-python
-solid
-qt5-tools
-#pythonqt
-
 # liveiso.rescue-tools
 grsync
 #ddrescue
@@ -351,10 +296,6 @@ libdvdcss
 
 # AUR-support 
 yay
-
-#virtualbox.packages
-virtualbox-guest-dkms
-virtualbox-guest-utils
 
 #Vmware.packages
 open-vm-tools
